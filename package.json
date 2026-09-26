@@ -1,0 +1,14 @@
+{
+  "name": "isle-empire",
+  "version": "0.5.0",
+  "description": "小岛帝国 —— 休闲塔防 RTS（采集/建造/AI寻路/城墙封隘/波次守城）",
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve .",
+    "check": "node --check scripts/main.js"
+  },
+  "engine": {
+    "roadmap": "灰盒验证(HTML5 单文件) → 模块化工程(当前) → Cocos Creator 小游戏包(M5)"
+  },
+  "license": "MIT"
+}

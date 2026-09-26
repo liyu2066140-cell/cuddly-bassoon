@@ -1,0 +1,12 @@
+{
+  "display": { "width": 960, "height": 640, "world": [1536, 1024], "grid": 64 },
+  "scenes": ["scenes/levels.js#1-1", "scenes/levels.js#1-2", "scenes/levels.js#1-3"],
+  "entry": "scripts/main.js",
+  "assetsManifest": {
+    "units": ["01_hero_viking", "09_farmer", "03_archer", "10_wolf", "02_enemy_cultist"],
+    "buildings": ["05_townhall_t1", "07_barracks", "11_house", "06_tower_stone", "18_wall"],
+    "terrain": ["17_ground_big", "08_tile_grass", "19_mountain"],
+    "resources": ["13_berry", "14_gold", "15_stone"]
+  },
+  "levels": { "count": 3, "current": 1 }
+}
